@@ -1,0 +1,30 @@
+{
+  "name": "glsl-detokenizer",
+  "version": "1.0.0",
+  "description": "a through stream that reads from a GLSL token object stream and writes back a stream of GLSL token strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Jason Yung",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitstrider/glsl-detokenizer.git"
+  },
+  "keywords": [
+    "glsl",
+    "token",
+    "parse",
+    "deparse",
+    "stream"
+  ],
+  "dependencies": {
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "glsl-tokenizer": "^2.1.2",
+    "stream-equal": "^1.0.0",
+    "tap": "^10.7.0"
+  }
+}
