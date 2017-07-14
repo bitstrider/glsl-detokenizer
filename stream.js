@@ -1,3 +1,5 @@
+'use-strict'
+
 const through = require('through');
 
 function write (token) {

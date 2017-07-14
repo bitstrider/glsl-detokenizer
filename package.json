@@ -1,8 +1,8 @@
 {
   "name": "glsl-detokenizer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a through stream that reads from a GLSL token object stream and writes back a stream of GLSL token strings",
-  "main": "index.js",
+  "main": "stream.js",
   "scripts": {
     "test": "tap test/*.js"
   },
